@@ -1,0 +1,17 @@
+numero1=int(input("ingresa el primer numero:"))
+numero2=int(inpu("ingresa el segundo numero:"))
+print("1-suma")
+print("2-resta")
+print("3-multiplicacion")
+print("4-division")
+calculo=int(input("que calculo desea hacer"))
+if calculo==1:
+   print(numero1+numero2)
+elif calculo==2:
+   print(numero1-numero2)
+elif calculo==3:
+   print(numero1*numero2)
+elif calculo==4:
+    print(numero1/numero2)
+else:
+    print("no ingreso una opcion correcta")
